@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e6b6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .services-list {
+    margin-top: 20px;
+  }
+  
+  .service {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+  
+  .service h2 {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  .service p {
+    margin-bottom: 5px;
+  }
+  
+  .service .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .service .description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .service .button-container {
+    text-align: center;
+  }
+  
+  .service .button {
+    background-color:#F0630B;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .service .button:hover {
+    background-color: #0056b3;
+  }
+  

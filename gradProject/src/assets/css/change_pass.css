@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#e5e6b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    
+}
+h2{
+  color: #F0630B;
+  font-weight: bold;
+  font-size: xx-large;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 230px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+    
+  }
+  .p2{
+    margin-top: -1px;
+  }
+  .p1{
+    margin-top: -5px;
+  }
+  #resetButton{
+    margin-top: 40px;
+    font-weight: bold;
+    background-color: #F0630B;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

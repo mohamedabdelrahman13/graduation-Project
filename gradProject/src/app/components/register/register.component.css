@@ -1,0 +1,193 @@
+body{
+   background-color: #e5e6b6;
+}
+form {
+   text-align: right;
+}
+form input{
+   text-align: right;
+}
+
+.validations{
+   padding: 5px;
+   margin:0;
+}
+
+ .container{
+   width: 50%;
+   margin:0px auto;
+ }
+ legend{
+   text-align: center; 
+   font-size: 30px;
+ }
+
+ div.container{
+   padding: 50px;
+   border: 2px solid white;
+   border-radius: 15px;
+   background-color: white;
+   /* background-color: var(--mainColor); */
+ }
+
+ .btnColor{
+   background-color: var(--mainColor);
+   border: none;
+ }
+
+
+/* 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+     font-family: "Work Sans", sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+   
+     background-color:#f18238; 
+  } 
+  
+  ul{
+    list-style: none;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 1);
+    
+    
+  }
+  Small
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  Medium 
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  Large
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+ form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    margin-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    
+    
+ }
+ form input{
+    width: 400px;
+    height: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+ }
+ button{
+   width: 400px;
+    height: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+ form label  {
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-right: 20px;
+    text-align: right;
+ }
+
+ .sub1{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #F0630B;
+    border-color: #F0630B;
+ }
+ button a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .sub1 a:hover{
+    color: black;
+ }
+ form p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+ form p a {
+    text-decoration: none;
+    color: #F0630B;
+ }
+ .i{
+    margin-left: 160px;
+   
+ }
+ .i img{
+    width: 300px;
+    height: 450px;
+    padding-top: 40px;
+
+ }
+ .sun{
+
+ width: 250px;
+ font-weight: bold;
+ font-size: 25px;
+ margin-left: 60px;
+ margin-top: -10px;
+ font-family: 'Courier New', Courier, monospace;
+ 
+ 
+ }
+form p.enter{
+    margin-top: -40px;
+    margin-bottom:70px ;
+    font-size: 25px;
+ }
+ form div.imag img{
+    
+    
+    float: left;
+    height: 35px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+ }
+ form div.imag img.img1{
+    width: 45px;
+  margin-left: 120px;
+ }
+ form div.imag img.img2{
+    margin-left: 35px;
+    width: 40;
+ }
+ form div.imag img.img3{
+    width: 50px;
+    margin-left: 25px;
+ } */

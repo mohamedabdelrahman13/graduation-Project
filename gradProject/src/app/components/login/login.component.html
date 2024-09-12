@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>sign up</title> -->
+
+    <!-- Render All Elements Normally -->
+    <!-- <link rel="stylesheet" href="/gradProject/src/assets/css/Render.css" /> -->
+    <!-- Font Awesome Library -->
+    <!-- <link rel="stylesheet" href="/gradProject/src/assets/css/all.min.css" /> -->
+    <!-- Main Template CSS File -->
+    <!-- <link rel="stylesheet" href="css/signup.css" /> -->
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+<body>
+    
+    <div class="container">
+        <div class="i">
+           <p class="sun"> قم بتسجيل الدخول</p>
+         <img src="https://img.freepik.com/free-photo/view-3d-geek-with-tablet_23-2150709940.jpg" alt="signup" />
+        </div>
+       
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <!-- #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)" -->
+         <p class="enter">تسجيل الدخول</p>
+         <label for="">البريد الالكتروني</label>
+         <br />
+         <input #emailInput type="email" formControlName="Email"  required placeholder="ادخل بريدك الالكتروني" name="Email" />
+         <br />
+         <label class="a1">كلمة المرور</label>
+         <br />
+         <input type="password" name="Password" formControlName="Password" required placeholder="ادخل كلمة السر"
+          maxlength="100" minlength="2"/> <br />
+         <a class="forget-pass">هل نسيت كلمة المرور؟</a> <br/>
+         <button type="submit" class="sub1" id="si">تسجيل الدخول</button>
+         
+         <hr />
+         <p>او</p>
+         <p>الاستمرار مع </p><br>
+         <div class="imag">
+           <a
+             href="https://search.yahoo.com/search?fr2=p%3ads%2cv%3aomn%2cm%3asa%2cbrws%3achrome%2cpos%3a3&fr=mcafee&type=E210US91105G0&p=%D9%81%D9%8A%D8%B3+%D8%A8%D9%88%D9%83+%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9+%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9"
+           >
+             <img src="assets/facebook.jpg" alt="facebook" class="img1"
+           /></a>
+           <a
+             href="https://search.yahoo.com/search?fr=mcafee&type=E210US91105G0&p=l%2Cru+%5B%2C%5Bg"
+             ><img src="assets/google.jpg" alt="tweter" class="img2"
+           /></a>
+           <a
+             href="https://search.yahoo.com/search;_ylt=AwrFSZDrY79larIDemlXNyoA;_ylc=X1MDMjc2NjY3OQRfcgMyBGZyA21jYWZlZQRmcjIDc2ItdG9wBGdwcmlkAy5kai54bVA5VDZPM0l0UEFmMDViSkEEbl9yc2x0AzAEbl9zdWdnAzAEb3JpZ2luA3NlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzEzBHF1ZXJ5AyVEOSU4NSVEOSU4OCVEOSU4MiVEOCVCOSUyMCVEOCVBNyVEOSU4NiVEOCVBQyVEOCVBQSVEOCVBQyVEOCVCMSVEOCVBNyVEOSU4NQR0X3N0bXADMTcwNzA0MTgzNA--?p=%D9%85%D9%88%D9%82%D8%B9+%D8%A7%D9%86%D8%AC%D8%AA%D8%AC%D8%B1%D8%A7%D9%85&fr=mcafee&type=E210US91105G0&fr2=sb-top&iscqry="
+             ><img src="assets/instgram.jpg" alt="instgram" class="img3" />
+           </a>
+         </div>
+         <p>هل لديك حساب؟<a [routerLink]="['/register']" routerLinkActive="router-link-active" >انشاء حساب</a></p>
+       </form>
+     </div>
+</body>
+    
+  
+</html>

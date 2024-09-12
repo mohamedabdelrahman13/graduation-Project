@@ -1,0 +1,27 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عروض الخدمات</title>
+    <link rel="stylesheet" href="/gradProject/src/assets/css/offer.css">
+  </head>
+  <body>
+  
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">عروض الخدمات</h2>
+            <span class="line"></span>
+        </div>
+      <div *ngFor="let item of offerList" id="servicesList" class="services-list">
+        <img [src]="item.imageUrl" alt="" class="imag">
+        <div class="service">
+          <h2>{{item.title}}</h2>
+          <p class="description">{{item.description}}</p>
+          <p class="price">السعر: {{item.price}}</p>
+          <div class="button-container">
+            <button class="button" id ='is' (click)="goToOrder()">اطلب الان </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>

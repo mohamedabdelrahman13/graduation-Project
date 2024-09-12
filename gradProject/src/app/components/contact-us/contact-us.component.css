@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background-color: #e5e6b6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 650px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    direction: rtl; /* توجيه النص إلى اليمين */
+  }
+  
+  h2 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+  
+  .section-header{
+    
+    text-align: center;
+    font-size: 26px;
+    transform: width .7s;
+    padding: 20px 0px;
+}
+.section-title{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.section-header .line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: var(--mainColor);
+    transition: width .5s;
+}
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  .form-group input{
+    height: 25px; 
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #F0630B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icon img {
+    margin-top: 20px;
+    width: 40px; 
+    height: 30px
+  }
+  .a1{
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .terms {
+    margin-top: 20px;
+  }
+  
+  .terms p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .terms a {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .terms a:hover {
+    text-decoration: none;
+  }
+  

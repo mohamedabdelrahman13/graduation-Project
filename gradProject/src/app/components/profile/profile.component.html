@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة البروفايل</title>
+    <!-- <link rel="stylesheet" href="css/profile.css"> -->
+</head>
+<body>
+    <div class="profile" id="profile">
+        <label for="file-input">
+            <div class="profile-image-container">
+                <img src="assets/default.jpg" alt="" id="profile-image" >
+                <div class="camera-icon">
+                    <img src="camera-icon.png" alt="أيقونة الكاميرا">
+                </div>
+            </div>
+            <input type="file" id="file-input" style="display: none;" accept="image/*">
+        </label>
+        <br>
+        <span id="profile-name">{{userName}}</span>
+        <br><br>
+        <input type="text" id="email" placeholder="البريد الإلكتروني">
+        <br>
+        <input type="text" id="phone" placeholder="رقم الهاتف">
+        <br>
+        <button onclick="editProfile()">تعديل</button>
+    </div>
+
+    <script src="/gradProject/src/assets/js/profile.js"></script>
+</body>
+</html>

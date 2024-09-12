@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب الخدمة</title>
+    <!-- <link rel="stylesheet" href="/gradProject/src/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common-style.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Varela+Round&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+<div class="container">
+    <div class="form-service">
+        <div class="section-header">
+            <h2 class="section-title">طلب الخدمة</h2>
+            <span class="line"></span>
+        </div>
+        <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+            <label for="date">التاريخ</label>
+            <input type="text" name="Date" formControlName="Date"  id="date" placeholder="تاريخ الطلب" required>
+            <label for="time">الوقت</label>
+            <input type="text"  name="Time" id="time" formControlName="Time"  placeholder="وقت الطلب" required>
+            <label for="address">العنوان</label>
+            <input type="text"  name="Address" id="address" formControlName="ClientAddress"  placeholder="عنوانك" required>
+            <label for="phone">الرقم</label>
+            <input type="text"  name="Phone" id="phone" formControlName="Phone"  placeholder="رقم التليفون" required> 
+            <label for="problem">المشكلة</label>
+            <input class="last" name="Problem" type="text" id="problem" formControlName="Problem"  placeholder="ما مشكلتك؟" required>
+            <!-- 01102250549 -->
+            <div class="submit">
+                <button type="submit" id="submitButton">إرسال</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

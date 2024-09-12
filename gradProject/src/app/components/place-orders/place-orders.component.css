@@ -1,0 +1,152 @@
+.section-header{
+    
+    text-align: center;
+    font-size: 26px;
+    transform: width .7s;
+    padding: 40px 0px;
+
+
+}
+.section-title{
+    padding-bottom: 10px;
+}
+.section-header .line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: var(--mainColor);
+    transition: width .5s;
+}
+
+
+/* body{
+    height: 2000px;
+} */
+.section-header{
+    
+    text-align: center;
+    font-size: 26px;
+    transform: width .7s;
+    padding: 40px 0px;
+
+
+}
+.section-title{
+    padding-bottom: 10px;
+}
+
+.section-header .line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: var(--mainColor);
+    transition: width .5s;
+}
+
+.orders .btns{
+   text-align: center;
+}
+.orders .btns button{
+  /* background-color: var(--mainColor); */
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 27px;
+  font-weight: bold;
+  margin: 0 7px;
+  border-radius: 15px;
+  border:1px solid #d9d8d8;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px gray;
+
+  
+}
+.orders .btns button:first-child:hover{
+  opacity: .5;
+}
+.orders .btns button:first-child{
+  background-color: white;
+  color: var(--mainColor);
+  transition: .2s;
+
+}
+.orders .btns button:nth-child(2){
+  background-color: var(--mainColor);
+  color: white;
+  transition: .2s;
+
+}
+.orders .btns button:nth-child(2):hover{
+  opacity: .5;
+}
+
+.orders table{
+    margin:40px 0 ;
+   margin-left: auto;
+   margin-right: auto;
+  text-align: center;
+}
+
+.orders table td , .orders table th{
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d9d8d8;    
+}
+.orders table th{
+    font-size: 50px;   
+}
+
+.orders table td{
+  font-size:30px;
+}
+
+.orders table td button{
+    background-color: var(--mainColor);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 7px;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: .2s;
+}
+
+.orders table td button:hover{
+   opacity: .5;
+}
+
+.orders table img{
+    width: 100px;
+    height: 100px;
+}
+
+.orders .confirm-order{
+    text-align: center;
+}
+
+.orders .submit{
+    background-color: var(--mainColor);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 7px;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition:.2s;
+}
+
+
+.orders .submit:hover{
+    background-color: white;
+    color: var(--mainColor);
+ }

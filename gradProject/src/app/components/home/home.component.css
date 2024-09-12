@@ -1,0 +1,197 @@
+:root{
+    --mainColor: #F0630B
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin:0px auto 0px auto;
+}
+
+.section-header{
+    
+    text-align: center;
+    font-size: 26px;
+    transform: width .7s;
+    padding: 40px 0px;
+}
+.section-title{
+    padding-bottom: 10px;
+}
+.section-header .line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: var(--mainColor);
+    transition: width .5s;
+}
+.img-container{
+    background-color: #FEEFE7;
+    max-height: 560px;
+}
+
+.img-container img{
+    max-height: 570px; 
+    background-size: cover;
+    /* opacity: .8; */
+}
+.home-parent{
+   margin-top: 100px;
+}
+
+.mg{
+    margin: 40px 0px;
+    background-color: #FEEFE7;
+    border-radius: 15px;
+}
+h1{
+    font-weight: bolder;
+    color: #F0630B;
+}
+p{
+    font-size: 23px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 10px;
+}
+/* 01083937743 */
+.indic .active{
+    background-color: #F0630B;
+    text-align: center;
+}
+.next , .Previous{
+  filter: invert(38%) sepia(80%) saturate(3675%) hue-rotate(355deg) brightness(100%) contrast(101%);
+}
+.home{
+    /* width: 100%; */
+    /* height: 90vh; */
+    /* background-image: url(../images/back1.jpg); */
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    text-align: center;
+    /* background-color: #ff0000;  */
+}
+
+.home-img{
+    /* background-color: aqua; */
+    text-align: right;
+}
+.home-img img{
+   width: 400px;
+   height: 400px;
+}
+
+.home .home-content{ 
+    padding: 50px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.home .home-content h1{
+    color: #F0630B;
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+.home .home-content p{
+   margin: 30px 0 50px 0;
+   line-height: 30px;
+   font-size: 20px;
+   
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+.home button.ln{
+   
+    background-color: #F0630B;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 7px;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: .3s;
+    
+}
+.home button.st{
+    background-color: white;
+    color: #F0630B;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 7px;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: .3s;
+    
+}
+.home button.st:hover{
+   opacity: .5;
+    
+}
+.home button.ln:hover{
+   opacity: .5;
+    
+}
+
+ button.ln{
+   
+    background-color: #F0630B;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 7px ;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: .3s;
+    
+}
+button.st{
+    background-color: white;
+    color: #F0630B;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px ;
+    border-radius: 15px;
+    border:1px solid #d9d8d8;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: .3s;
+    
+}
+ button.st:hover{
+   opacity: .5;
+    
+}
+ button.ln:hover{
+   opacity: .5;
+    
+}
+.buttons{
+    margin: 30px 0px;
+    width: 100%;
+    text-align: center;
+}

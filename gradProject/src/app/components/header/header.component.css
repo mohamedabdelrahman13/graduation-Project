@@ -1,0 +1,174 @@
+
+/*general styles*/
+
+/* :root{
+    --mainColor: #F0630B
+} */
+
+
+*{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1,h2 ,h3,h4,h5,h6{
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+/* common-header styles */
+
+
+.header{
+    /* position: fixed; */
+    width: 100%;
+    z-index: 3;  
+    font-weight: bold;  
+    padding: 20px 0; 
+    background-color: #efd3bd;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.header .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+@media (max-width: 768px) {
+    .header{
+      height: 600px;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    .header ul{
+        position: absolute;
+        top:150px;
+        text-align: center;
+    }
+    .header ul >li{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        top:80px;
+    }
+    .header ul button{
+        display: block;
+        position: absolute;
+        left: 145px;
+        right: 0px;
+        bottom: 450px;
+    }
+    
+}
+
+.header .profile-img img{
+    width: 50px;
+    margin:0px 20px ;
+    border-radius: 50%;
+}
+.header .navbar{
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.header .logo{
+    width: 20%;
+    flex: 2;
+    text-align: left;
+}
+
+.header button.navi{
+  width: 115px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight:bold;
+  background-color: #F0630B;
+  color: white;
+  padding-top: 2px;
+  margin-right:20px ;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.header .logo img{ 
+    width: 100px;
+    padding-top: 5px;
+}
+
+
+.header > ul{
+    width: 60%;
+    flex: 3;
+    text-align: center;
+}
+
+.header ul >li{
+    display: inline-block;
+    list-style: none; 
+
+}
+.header ul >li> a{
+    padding: 15px ;
+    text-decoration: none;
+    display: block;
+    color: black;  
+    font-size: 23px;
+}
+
+
+.header  ul > li >a:hover{
+    color:#F0630B;
+}
+
+.header ul li .active{
+    color: #F0630B;
+}
+
+
+.header button:hover{
+    opacity: .5;
+}
+
+.o{
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    position: relative;
+    height: 25px;
+}
+.search-button{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    background-color: #F0630B;
+    border: 1px solid white;
+    color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-right: 10px;
+
+}
+
+.img0{
+    height: 40px;  
+    height: 40px;
+   margin-left: 10px;
+   border-radius: 25px; 
+  }
+  

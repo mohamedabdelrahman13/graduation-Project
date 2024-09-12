@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications</title>
+  <!-- <link rel="stylesheet" href="css/notify.css"> -->
+</head>
+<body>
+ 
+  <div class="container">
+    <h1>الإشعارات</h1>
+    <div *ngFor="let item of notificationList ; let i = index" id="notificationList" class="notification-list">
+        <p>{{item.message}} {{item.time}}</p>
+        <p class="time"></p>
+        <button (click)="delete(i)" class="delete-button" >حذف</button>
+    </div>
+  </div>
+</body>
+</html>
+

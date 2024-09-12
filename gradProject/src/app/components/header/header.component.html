@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="utf-8">
+        <meta name="keyword" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="/gradProject/src/assets/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="/">
+        <link rel="stylesheet" href="css/home.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Varela+Round&display=swap" rel="stylesheet">
+    
+        <title>الرئيسية
+        </title>
+       
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header" id="navigationbar">
+      <div class="container">
+        <div class="header-content">
+          <div  class="logo">
+            <!-- <li></li> -->
+             <img  src="assets/logo.png" alt="no image!">
+          </div>
+          <h5 *ngIf="isLoggedIN">{{ username }}!</h5>
+          <div class="profile-img">
+            <img *ngIf="isLoggedIN" src="assets/default.jpg" (click)="goToProfile()" alt="">
+          </div>
+          <ul class="navbar" >
+              <button class="navi" *ngIf="!isLoggedIN"  #login  [routerLink]="['/login']" routerLinkActive="router-link-active" >تسجيل الدخول</button>
+              <button class="navi" *ngIf="isLoggedIN"  (click)="OnLogout()"  routerLinkActive="router-link-active" >تسجيل الخروج</button>
+              <li><a class="navi" [routerLink]="['/contactUs']" routerLinkActive="router-link-active" >اتصل بنا</a></li>
+              <li><a class="navi" [routerLink]="['/parts']" routerLinkActive="router-link-active" >قطع الغيار </a></li>
+              <li><a class="navi" [routerLink]="['/offers']" routerLinkActive="router-link-active" >العروض</a></li>
+              <li><a class="navi" [routerLink]="['/services']" routerLinkActive="router-link-active" >الخدمات</a></li> 
+              <li><a class="navi" [routerLink]="['/home']" routerLinkActive="router-link-active" >الرئيسية</a></li>
+          </ul>
+            
+              
+       
+         <a><img [routerLink]="['/notification']" routerLinkActive="router-link-active"  src="assets/جر2.png" alt="ran" class="img0" /></a> 
+        </div>
+      </div>
+   </div> 
+
+  </header>
